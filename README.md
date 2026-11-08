@@ -38,7 +38,7 @@ src/
   site.config.js         ← name, tagline, about text, email/instagram
   components/            ← page sections (Hero, Featured, Collections, Gallery, About…)
   components/reactbits/  ← React Bits components (Aurora, CircularGallery, SplitText,
-                           ScrollVelocity, TiltedCard, ClickSpark, ShinyText, CountUp, GradientText)
+                           TiltedCard, ClickSpark, ShinyText, CountUp, GradientText)
 ```
 
 ## Adding or changing photos
@@ -51,7 +51,6 @@ src/
 
 - **Hero**: Aurora WebGL background, SplitText name reveal, ShinyText eyebrow, CountUp stats, floating photo strip.
 - **Selected works**: CircularGallery, a draggable WebGL reel of the `featured` photos.
-- **Marquee**: ScrollVelocity, with place names that speed up as you scroll.
 - **Collections**: TiltedCard 3D cards. Clicking one filters the gallery (`#gallery/rome` links work).
 - **Gallery**: balanced masonry with blur-up loading, animated filters, and a full-screen lightbox (zoom, thumbnails, EXIF captions).
 - **About** / **Footer**, with ClickSpark sparks on every click site-wide.

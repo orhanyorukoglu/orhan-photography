@@ -3,7 +3,6 @@ import ClickSpark from './components/reactbits/ClickSpark.jsx';
 import Nav from './components/Nav.jsx';
 import Hero from './components/Hero.jsx';
 import Featured from './components/Featured.jsx';
-import CityMarquee from './components/CityMarquee.jsx';
 import Collections from './components/Collections.jsx';
 import Gallery from './components/Gallery.jsx';
 import About from './components/About.jsx';
@@ -37,7 +36,6 @@ export default function App() {
       <main>
         <Hero />
         <Featured />
-        <CityMarquee />
         <Collections onOpen={openCollection} />
         <Gallery filter={filter} onFilter={openCollection} />
         <About />
