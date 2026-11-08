@@ -1,0 +1,118 @@
+{
+  "_readme": "Each folder in /photos is a collection. Edit titles, blurbs, covers and featured picks here, then run `npm run photos`. Folders starting with _ are ignored.",
+  "order": ["rome", "venice", "paris", "istanbul", "new-york", "aegean", "tuscany", "moments"],
+  "collections": {
+    "rome": {
+      "title": "Rome",
+      "subtitle": "Rain, umbrellas & wine bars",
+      "year": "2016",
+      "cover": "DSC06798.jpg"
+    },
+    "venice": {
+      "title": "Venice",
+      "subtitle": "Canals, gondoliers & laundry lines",
+      "year": "2016",
+      "cover": "DSC03572.jpg"
+    },
+    "paris": {
+      "title": "Paris",
+      "subtitle": "Stone, light & the Seine",
+      "year": "2016",
+      "cover": "D2R5297.jpg"
+    },
+    "istanbul": {
+      "title": "Istanbul",
+      "subtitle": "Domes, minarets & tulips",
+      "year": "2016",
+      "cover": "DSC01527.jpg"
+    },
+    "new-york": {
+      "title": "New York",
+      "subtitle": "Glass, steel & crosswalks",
+      "year": "2016",
+      "cover": "MG_0996-Edit.jpg"
+    },
+    "aegean": {
+      "title": "Aegean",
+      "subtitle": "Bodrum sunsets & summer storms",
+      "year": "2015–2016",
+      "cover": "Bodrum-Pano.jpg"
+    },
+    "tuscany": {
+      "title": "Tuscany",
+      "subtitle": "Florence & Siena",
+      "year": "2016",
+      "cover": "Sienna.jpg"
+    },
+    "moments": {
+      "title": "Moments",
+      "subtitle": "Faces, family & small wonders",
+      "year": "2006–2016",
+      "cover": "Clown.jpg"
+    }
+  },
+  "featured": [
+    "venice/DSC03572.jpg",
+    "rome/D2R6345.jpg",
+    "paris/D2R5461-Edit.jpg",
+    "istanbul/DSC01550.jpg",
+    "aegean/DSC05431.jpg",
+    "rome/DSC06830-1.jpg",
+    "venice/DSC03394-Edit.jpg",
+    "new-york/MG_1157-Edit.jpg",
+    "paris/Eiffel.jpg",
+    "aegean/BerilTwistPool.jpg",
+    "rome/DSC06746.jpg",
+    "venice/DSC03521.jpg",
+    "istanbul/DSC01521.jpg",
+    "moments/Clown.jpg"
+  ],
+  "titles": {
+    "paris/Eiffel.jpg": "Iron Lace",
+    "paris/D2R5461-Edit.jpg": "Notre-Dame Nave",
+    "paris/D2R5419-Pano.jpg": "Notre-Dame",
+    "paris/D2R5297.jpg": "Pont Alexandre III",
+    "paris/D2R5162.jpg": "Musée d'Orsay",
+    "paris/ShakespeareCafe.jpg": "Shakespeare & Company",
+    "paris/voltaire.jpeg": "Le Voltaire",
+    "rome/D2R6345.jpg": "The Spiral",
+    "rome/DSC06830-1.jpg": "Carousel",
+    "rome/DSC06801.jpg": "Pantheon",
+    "rome/DSC06785.jpg": "Pink Umbrella",
+    "rome/DSC06746.jpg": "The Bearded Man",
+    "rome/DSC06407.jpg": "Trevi Crowd",
+    "rome/DSC06337-2.jpg": "Tunnel",
+    "venice/DSC03394-Edit.jpg": "Gondolier",
+    "venice/DSC03392.jpg": "The Bell",
+    "venice/DSC03455.jpg": "Santa Maria della Salute",
+    "venice/DSC03299-Edit-2.jpg": "San Giorgio Maggiore",
+    "venice/DSC03384.jpg": "Piazza San Marco",
+    "venice/DSC03521.jpg": "Ristorante",
+    "venice/DSC03572.jpg": "Grand Canal",
+    "istanbul/DSC01550.jpg": "Hagia Sophia at Dusk",
+    "istanbul/DSC01469-Edit.jpg": "Blue Mosque",
+    "istanbul/DSC01489-Edit.jpg": "Under the Dome",
+    "istanbul/DSC01521.jpg": "Tulips",
+    "istanbul/DSC01571-Edit-Edit.jpg": "Galata",
+    "new-york/MG_1157-Edit.jpg": "Gold Tower",
+    "new-york/D2R7627.jpg": "Madison Ave",
+    "aegean/DSC05431.jpg": "Bodrum Sunset",
+    "aegean/Bodrum-Pano.jpg": "Bodrum Panorama",
+    "aegean/BerilTwistPool.jpg": "The Twist",
+    "aegean/DSC04956.jpg": "Gull & Storm",
+    "aegean/DSC05629.jpg": "Bodyboarder",
+    "tuscany/Firenze-Bridge.jpg": "Ponte Reflections",
+    "tuscany/Firenze-Man-Street.jpg": "Florentine",
+    "tuscany/FirenzeCouple.jpg": "Mandarina Duck",
+    "tuscany/Sienna.jpg": "Siena Duomo",
+    "moments/Clown.jpg": "The Clown",
+    "moments/WhiteWoman.jpg": "Living Statue",
+    "moments/IceCreamVendor.jpg": "Ice Cream Vendor",
+    "moments/Japanese-Maple.jpg": "Japanese Maple",
+    "moments/Legos.jpg": "Bricks",
+    "moments/Moon.jpg": "Moon",
+    "moments/Defne.jpg": "Defne",
+    "moments/2006-Kartalkay.jpg": "Kartalkaya, 2006",
+    "moments/D2R0010-Edit.jpg": "Dancer"
+  }
+}

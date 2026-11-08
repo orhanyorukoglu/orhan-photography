@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+.claude/
+
+# Full-resolution originals stay on this machine only; the web-sized copies in
+# public/photos (made by `npm run photos`) are what gets committed and published.
+photos/**/*.jpg
+photos/**/*.jpeg
+photos/**/*.JPG
+photos/**/*.png
+photos/**/*.tif
+photos/**/*.tiff
