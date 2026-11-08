@@ -13,7 +13,7 @@ npm run preview    # serve the built site
 
 ## Deploy
 
-**Live:** https://orhanyorukoglu.github.io/orhan-photography/
+**Live:** https://orhanyorukoglu.com (also reachable via orhanyorukoglu.github.io/orhan-photography, which redirects)
 
 Every push to `main` rebuilds and publishes the site through GitHub Actions ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)).
 
