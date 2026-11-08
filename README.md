@@ -11,7 +11,18 @@ npm run build      # processes photos, then builds static site into dist/
 npm run preview    # serve the built site
 ```
 
-`dist/` is a fully static site, so it can be deployed to Netlify, Vercel, Cloudflare Pages, GitHub Pages, or any web host.
+## Deploy
+
+**Live:** https://orhanyorukoglu.github.io/orhan-photography/
+
+Every push to `main` rebuilds and publishes the site through GitHub Actions ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)).
+
+Full-resolution originals in `photos/` are **not** committed (see `.gitignore`). Only the web-sized copies in `public/photos/` are. So after adding photos, run `npm run photos` locally and commit `public/photos/` and `src/data/photos.json`:
+
+```bash
+npm run photos
+git add -A && git commit -m "Add new photos" && git push
+```
 
 ## Folder layout
 
