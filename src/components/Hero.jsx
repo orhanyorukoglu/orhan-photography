@@ -7,8 +7,11 @@ import { collections, photos, featured, years } from '../data/index.js';
 
 const strip = featured.slice(0, 7);
 
+// The tagline is the headline: the part before the dash is set upright,
+// the rest in the italic amber gradient.
+const [lead, accent] = site.tagline.split(/\s*—\s*/);
+
 export default function Hero() {
-  const [first, ...rest] = site.name.split(' ');
   return (
     <section className="hero" id="top">
       <div className="hero__aurora" aria-hidden="true">
@@ -24,22 +27,39 @@ export default function Hero() {
       </div>
 
       <div className="hero__content">
-        <p className="eyebrow">
-          <ShinyText text={`${site.role} · ${years.from}–${years.to}`} color="#a9a297" shineColor="#ffffff" speed={3} />
+        <p className="hero__name">
+          <span className="hero__name-mark" aria-hidden="true" />
+          <ShinyText text={site.name} color="#e9e3d8" shineColor="#ffffff" speed={3.5} />
+          <span className="hero__name-meta">
+            {site.role} · {years.from}–{years.to}
+          </span>
         </p>
-        <h1 className="hero__title">
-          <SplitText text={first} tag="span" className="hero__line" delay={45} duration={1.1} effect="rise" trigger="load" mask />
+
+        <h1 className="hero__title" aria-label={site.tagline}>
           <SplitText
-            text={rest.join(' ')}
+            text={`${lead} —`}
             tag="span"
-            className="hero__line hero__line--italic"
-            delay={45}
+            splitType="words"
+            className="hero__line"
+            delay={70}
             duration={1.1}
-            effect="blur"
+            effect="rise"
             trigger="load"
+            mask
           />
+          {accent && (
+            <SplitText
+              text={accent}
+              tag="span"
+              splitType="words"
+              className="hero__line hero__line--italic"
+              delay={70}
+              duration={1.1}
+              effect="blur"
+              trigger="load"
+            />
+          )}
         </h1>
-        <p className="hero__tagline">{site.tagline}</p>
 
         <dl className="hero__stats">
           <div>
