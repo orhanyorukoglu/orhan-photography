@@ -15,6 +15,8 @@ npm run preview    # serve the built site
 
 **Live:** https://orhanyorukoglu.com (also reachable via orhanyorukoglu.github.io/orhan-photography, which redirects)
 
+DNS is at GoDaddy: four `A` records for `@` → `185.199.108–111.153`, and `www` CNAME → `orhanyorukoglu.github.io`. The HTTPS certificate is issued and renewed automatically by GitHub Pages (Let's Encrypt). If it ever gets stuck, remove the custom domain under repo Settings → Pages, wait a few minutes, and add it back.
+
 Every push to `main` rebuilds and publishes the site through GitHub Actions ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)).
 
 Full-resolution originals in `photos/` are **not** committed (see `.gitignore`). Only the web-sized copies in `public/photos/` are. So after adding photos, run `npm run photos` locally and commit `public/photos/` and `src/data/photos.json`:
