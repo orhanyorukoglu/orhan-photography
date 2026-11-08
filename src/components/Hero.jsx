@@ -27,12 +27,8 @@ export default function Hero() {
       </div>
 
       <div className="hero__content">
-        <p className="hero__name">
-          <span className="hero__name-mark" aria-hidden="true" />
-          <ShinyText text={site.name} color="#e9e3d8" shineColor="#ffffff" speed={3.5} />
-          <span className="hero__name-meta">
-            {site.role} · {years.from}–{years.to}
-          </span>
+        <p className="eyebrow hero__eyebrow">
+          <ShinyText text={`${site.role} · ${years.from}–${years.to}`} color="#a9a297" shineColor="#ffffff" speed={3} />
         </p>
 
         <h1 className="hero__title" aria-label={site.tagline}>
